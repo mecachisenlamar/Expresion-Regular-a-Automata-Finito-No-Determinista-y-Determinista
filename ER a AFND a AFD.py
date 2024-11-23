@@ -329,7 +329,7 @@ class Conversion:
 expresion_regular = input("Ingrese su expresión regular: ")
 string = input("Ingrese una Cadena: ")
 
-if "ñ" in expresion_regular or "Ñ" in expresion_regular:
+if "ñ" in (expresion_regular.lower()):
     print("Expresion regular inválida: contiene 'ñ' o 'Ñ'")
 else:
     p = Thomson()
